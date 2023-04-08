@@ -1,0 +1,84 @@
+.centrado{
+    display: flex;
+    position: relative;
+    justify-content: center;
+  }
+
+.juegos {
+  color: #c4c0c0;
+   display: flex; 
+   flex-direction: column;
+   position: relative;
+   align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 80%; 
+    box-shadow: inset 0 0 10px #000000;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    text-align: center;
+    border-radius: 7px;
+    padding: 10px 20px 20px ;
+    border: #c4c0c0 solid 1px;
+
+  }
+
+  @media (max-width: 440px) {
+    .juegos{
+      font-size: xx-small;
+    }
+  }
+
+  @media (max-width: 440px) {
+    .imgGames{
+      animation: 3s linear 0s infinite alternate ris ;
+
+    }
+  }
+
+@keyframes ris {
+  from {
+    transform: perspective(100px) translateZ(5px)
+  }
+  to {
+    transform: translateZ(1px);
+  }
+}
+
+  @media (max-width: 440px) {
+    h4 {
+      font-size: medium;
+    }
+  }
+
+  .texto {
+    background: -webkit-linear-gradient(rgb(68 182 201 / 50%),rgb(59 80 80));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(15, 15, 14);  
+  }
+
+  .imag{
+    display: flex; 
+    position: fixed; 
+     justify-content: center;
+    width: 99%;
+    z-index: -1;
+    opacity: 0.1;
+    margin-top: -5%;
+  }
+
+  .imgGames{
+    width: 100%;
+  }
+
+
+  a:hover {
+      text-decoration-line: none;
+      -webkit-transform:scale(1.3);transform:scale(1.03);
+    box-shadow: 0px 0px 5px 5px #1e9aec;
+    -webkit-box-shadow: 0px 0px 5px 5px #1e9aec70;
+    transition: transform 2s;
+    
+    }
+  
