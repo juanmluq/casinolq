@@ -23,7 +23,7 @@ export default function Acceder(){
 
 function handleSubmit(e){
     e.preventDefault();
-    console.log(users[0].id)
+    console.log(users[0])
     for (let index = 0; index < users.length; index++) {
         if(users[index].user === input.user && users[index].password === input.password){ 
             var id= users[index].id;
