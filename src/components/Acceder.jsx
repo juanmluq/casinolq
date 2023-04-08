@@ -47,9 +47,9 @@ return(
     <div >
       <h1 >Iniciar sesión</h1>
       <form className="formul" onSubmit={(e) => handleSubmit(e)}>
-        <input  type='user' name='user' placeholder='Usuario' required 
+        <input className="inp" type='user' name='user' placeholder='Usuario' required 
         onChange={(e) => handleChange(e)}/>
-        <input type='password' name='password' placeholder='Contraseña' required 
+        <input className="inp" type='password' name='password' placeholder='Contraseña' required 
         onChange={(e) => handleChange(e)} />
         <input type="submit" value='Ingresar' />
       </form>
