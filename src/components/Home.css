@@ -142,8 +142,8 @@
 
 .piePagin{
   background-color: #0000009a;
-  bottom: 0%;
-  position: absolute;
+  //bottom: 0%;
+  position: inherint;
   width: 100%;
 }
 
