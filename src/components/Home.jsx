@@ -104,12 +104,6 @@ if(personas <= 73 && !crece && creceSeg){
           
         </div>
         </div>
-        <br />
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-                <br/>
         <br/>
         <br/>
 
