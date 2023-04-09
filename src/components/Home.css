@@ -143,7 +143,7 @@
 .piePagin{
   background-color: #0000009a;
   //bottom: 0%;
-  position: inherint;
+  position: static;
   width: 100%;
 }
 
