@@ -141,10 +141,13 @@
 }
 
 .piePagin{
-  display: contents;
-  bottom: 0.5px;
-  position: fixed;
+  display: flex;
+  bottom: 1px;
+  position: relative;
+  flex_direction: column;
+  margin-top: 6%;
   width: 100%;
+  background-color: #000000b8;
 }
 
   @keyframes rise {
