@@ -142,7 +142,7 @@
 
 .piePagin{
   display: contents;
-  bottom: 0px;
+  bottom: 0.5px;
   position: fixed;
   width: 100%;
 }
