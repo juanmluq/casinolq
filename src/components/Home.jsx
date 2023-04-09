@@ -109,7 +109,7 @@ if(personas <= 73 && !crece && creceSeg){
 
  
         <div className='piePagin'>
-        <div style={{backgroundColor: "#0000009a" }}>
+        //<div style={{backgroundColor: "#0000009a" }}>
                  <br />
         <div style={{display: "flex", position: "relative", justifyContent:"center" }}>
           Whatsapp: (011) 15 7635 1958
@@ -121,7 +121,7 @@ if(personas <= 73 && !crece && creceSeg){
           Jugar compulsivamente es perjuducial para la salud
         </div>
         <br />        
-       </div>
+       // </div>
         </div>
         </div> 
 
