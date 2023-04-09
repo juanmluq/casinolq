@@ -57,7 +57,7 @@ if(personas <= 73 && !crece && creceSeg){
               <br/>
         <div className='tex'>
           <h1>Casino Online LQ</h1>
-        <div/>
+        </div>
         <div style={{ display:"flex", position:"relative", justifyContent:"flex-end", margin:"2%"}}>
         <div className='conect'>  
         {personas} personas conectadas
