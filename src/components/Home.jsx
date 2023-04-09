@@ -55,7 +55,7 @@ if(personas <= 73 && !crece && creceSeg){
           <source src="https://player.vimeo.com/video/338795767?h=9e40727958&amp;muted=1&amp;autoplay=1&amp;loop=1&amp;transparent=0&amp;background=1&amp;app_id=122963" />
         </video> }  */}
               <br/>
-        <h1 className='texto'>Casino Diamante LQ</h1>
+        <h1 className='texto'>Casino Online LQ</h1>
         <div style={{ display:"flex", position:"relative", justifyContent:"flex-end", margin:"2%"}}>
         <div className='conect'>  
         {personas} personas conectadas
