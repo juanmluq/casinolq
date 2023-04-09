@@ -106,6 +106,12 @@ if(personas <= 73 && !crece && creceSeg){
         </div>
         <br/>
         <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
 
  
         <div className='piePagin'>
