@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 
 
 export default function Home() {
-const [personas, setPersonas] = useState(61)
+const [personas, setPersonas] = useState(Math.floor ((Math.random() * 0.5) * 70 + 41))
 const [crece,  setCrece] =useState(true)
 const[creceSeg, setCreceSeg] =useState(true)
  
@@ -12,17 +12,17 @@ useEffect(()=>{
   let intervalo = null;
 
 
-  if(personas >= 48 && crece){
+  if(personas >= 41 && crece){
   intervalo = setInterval(() => { 
   setPersonas(personas => personas + 1);
   }, 9000);
-  if(personas === 72){
+  if(personas === 75){
   setCrece(false)
   }
 } 
 
 
-if(personas <= 73 && !crece && !creceSeg){
+if(personas <= 76 && !crece && !creceSeg){
   if(personas === 65){
     setCrece(true)
     setCreceSeg(true)
@@ -33,7 +33,7 @@ if(personas <= 73 && !crece && !creceSeg){
   }, 9000); 
 }
 
-if(personas <= 73 && !crece && creceSeg){
+if(personas <= 76 && !crece && creceSeg){
   if(personas === 59){
     setCrece(true)
     setCreceSeg(false)
