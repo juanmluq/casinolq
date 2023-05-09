@@ -52,7 +52,9 @@ useEffect(()=> {
      
         <br />
         <h1>Registrate</h1>
-         <a href="https://mailto:casinodiamantelq@gmail.com">Contactar por correo</a>
+      
+          {/* <a href="https://mailto:casinodiamantelq@gmail.com?Subject=Interesado%20en%20el%20curso
+">Contactar por correo</a> */}
       
         {/* <form onSubmit={(e) => handleSubmit(e)}> */}
 
