@@ -144,6 +144,8 @@ useEffect(()=> {
           <div>
             <button class="btn btn-primary" type='submit'>Solicitar Usuario</button>
           </div>
+//esto es para que no me redirija al captcha
+        <input type="hidden" name="_captcha" value="false" />
         </form>
           <div className='info'>
               Una vez completado el formulario, le enviaremos (por whatsapp o en su defecto por email) a la brevedad un usuario y clave para comenzar a jugar.
