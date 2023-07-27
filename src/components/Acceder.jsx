@@ -45,7 +45,7 @@ return(
     <div className="acceder">    
     <div >
       <h1 style="text-align: center">Iniciar sesión</h1>
-      <form className="formul" onSubmit={(e) => handleSubmit(e)}>
+      <form className="formular" onSubmit={(e) => handleSubmit(e)}>
         <input className="inp" type='user' name='user' placeholder='Usuario' required 
         onChange={(e) => handleChange(e)}/>
         <input className="inp" type='password' name='password' placeholder='Contraseña' required 
