@@ -10,10 +10,9 @@
     position: relative;
     justify-content: center;
     flex-direction: column;
-      display: inline-grid;
     text-align: center;
-     border: 1px solid;
-      margin-Left: 1px; 
+    border: 1px solid;
+    margin-Left: 1px; 
     margin-Right: 1px; 
     padding : 6px
 }
