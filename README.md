@@ -1,4 +1,4 @@
-##  Casino Online Diamante
+##  Casino Online LQ
 
 
 Iniciar
