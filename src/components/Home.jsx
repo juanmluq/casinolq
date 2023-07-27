@@ -119,7 +119,7 @@ if(personas <= 76 && !crece && creceSeg){
         <div className='piePagin'>
                  <br />
         <div style={{display: "flex", position: "relative", justifyContent:"center" }}>
-          Whatsapp: (011) 15 7635 1958
+          Whatsapp: (011) 15 2467 1581
         </div>
         <div style={{display: "flex", position: "relative", justifyContent:"center" }}>
           Correo: casdiamantelq@gmail.com
