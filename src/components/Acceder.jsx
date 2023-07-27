@@ -44,7 +44,7 @@ function handleSubmit(e){
 return(
     <div className="acceder">    
     <div >
-      <h1 style="text-align: center">Iniciar sesión</h1>
+      <h1 style={{"text-align" : "center"}}>Iniciar sesión</h1>
       <form className="formular" onSubmit={(e) => handleSubmit(e)}>
         <input className="inp" type='user' name='user' placeholder='Usuario' required 
         onChange={(e) => handleChange(e)}/>
