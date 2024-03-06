@@ -3,7 +3,6 @@ import axios from "axios";
 export function getUsers(){
     return async function(dispatch){
         var json = await axios.get("https://backcasino-production.up.railway.app/usuarios");
-
         return dispatch({
             type: "GET_USERS",
             payload: json.data
