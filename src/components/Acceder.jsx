@@ -4,7 +4,6 @@ import { getUsers } from "./actions";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 
-
 export default function Acceder(){
     const dispatch = useDispatch()
     const history = useHistory()
@@ -14,12 +13,12 @@ export default function Acceder(){
         password: ""
     })
 
-    function handleChange(e){
-        setInput({
-            ...input,
-            [e.target.name]: e.target.value
-        })
-    }
+function handleChange(e){
+    setInput({
+        ...input,
+        [e.target.name]: e.target.value
+    })
+}
 
 function handleSubmit(e){
     e.preventDefault();
@@ -28,15 +27,14 @@ function handleSubmit(e){
             var id= users[index].id;
             index = users.length;
             history.push("/homebonos/" + id)
-        }else if(index === users.length - 1)
+        } else if(index === users.length - 1)
         alert("usuario o contraseña invalida!")
-    }
+        }
     setInput({
         user:"",
         password:""
     })
 }
-
       useEffect(()=>{
         dispatch(getUsers())
       }, [dispatch]);
@@ -54,6 +52,5 @@ return(
       </form>
       </div> 
     </div>
-)
-
+  )
 }
