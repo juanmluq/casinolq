@@ -15,7 +15,6 @@ return (
     <div className="centrado">
       {/* <img className='imag' src="https://media.tenor.com/i3qZzUkQT6AAAAAd/casino.gif" alt="gif" /> */}
       <div className="juegos">
-
         <h2>PLATAFORMAS</h2>
         <h3>Haga click en la plataforma que desea jugar:</h3>
         <br />
