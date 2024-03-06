@@ -2,8 +2,8 @@
     padding: 20px;
     padding-right: 6%;
     flex-direction: column;
-
 }
+
 .centrPrinc{
     display: flex;
     position: relative;
@@ -21,14 +21,13 @@
     background-color: rgb(11, 221, 106);
 }
 
-@media(max-width: 550px){
-.inv, h5 {
-    font-size: small;
-}}
-
 .centrdos{
     display: flex;
     position: relative;
     align-items: center;
-    
 }
+
+@media(max-width: 550px){
+.inv, h5 {
+    font-size: small;
+}}
