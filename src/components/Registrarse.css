@@ -1,37 +1,24 @@
-
- .regist {
+.regist {
   position: relative;
   border: 1px solid var(--border-color);
   border-radius: 1rem;
-
   background-color: var(--card-bkg-color);
   color: white;
-
   padding: 0.25rem;
   margin: 5% 10%;
   width: auto;
-
   display: flex;
   flex-direction: column;
 }
 
-
- .info{
- padding: 2%;
-     
-    }
-
-    @media(max-width: 550px){
-      .info, .cent {
-        font-size: small
-      }
-    }
+.info{
+ padding: 2%; 
+}
 
 .name{
   font-size: 1.5rem;
   font-weight: 400;
   text-align: center;
-
 }
 
 .cent{
@@ -41,4 +28,8 @@
   text-align: center
 }
 
-
+@media(max-width: 550px){
+      .info, .cent {
+        font-size: small
+      }
+}
