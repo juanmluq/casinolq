@@ -16,13 +16,13 @@ export default function Vender(id){
             QR:
             <br />
             <div >
-            <img style={{width:"30%"}} src={QR} alt="QR" />
+                <img style={{width:"30%"}} src={QR} alt="QR" />
             </div>
             <br />
             <br />
             <div style={{display:"flex", justifyContent:"center"}}>
              <Link style={{width:"60px"}} to={"/homebonos/" + id.id} >Volver</Link>
-             </div>
+            </div>
         </div>
     )
 }
