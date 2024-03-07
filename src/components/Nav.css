@@ -1,12 +1,11 @@
-
 .navBtn{
     margin-left: auto;
     margin-right: 4%;
     display: flex;
     position: relative;
     align-items: center;
-  
 }
+
 .link{
 margin-top: 0.5%;
 margin-Right: 5%
@@ -17,16 +16,14 @@ padding: 10px;
 margin-Top: 0.5%
 }
 
-
 .btn{
-   
     border: solid 1px white;
     background-color: black;
     color: azure;
 }
 
-    @media(max-width: 400px){ 
-        .nav, .btn{    
-          font-size: x-small;
-          }
-        }
+ @media(max-width: 400px){ 
+    .nav, .btn{    
+      font-size: x-small;
+      }
+}
